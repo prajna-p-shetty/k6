@@ -9,6 +9,6 @@ export const options = {
 };
 
 export default function () {
-  http.get('http://64.227.14.236:3000/cqIDP/login');
+  http.get('http://64.227.14.236:4000/cqIDPpApi');
   sleep(1);
 }
